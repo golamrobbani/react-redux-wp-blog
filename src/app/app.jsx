@@ -1,24 +1,20 @@
 import React, { Fragment } from 'react';
+import { Router } from '@reach/router'
 
-import { Router, Link } from '@reach/router'
+import Routes from '../router'
+
 
 /* import FCounter from '../features/counter'
 <FCounter/> */
 
-const Home = () => {
-  return (
-    <h1>i am home</h1>
-  )
-}
+
 
 function App() {
   return (
     <Fragment>
 
-      <Router>
-        <Home path="/" />
-      </Router>
-      
+      <Routes />
+
     </Fragment>
   );
 }

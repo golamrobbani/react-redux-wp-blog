@@ -1,15 +1,13 @@
 import React, { Fragment } from 'react';
-
-const Post = () => {
+import CPost from '../../../components/post'
+const FPost = () => {
     return (
         <Fragment>
-            <div class="posts">
-                <div class="posts-inner">
 
-                </div>
-            </div>
+            <CPost />
+
         </Fragment>
     );
 }
 
-export default Post;
+export default FPost;

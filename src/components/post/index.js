@@ -4,7 +4,7 @@ import Post from './post'
 const Index = () => {
     return (
         <Fragment>
-            
+            <Post/>
         </Fragment>
     );
 }

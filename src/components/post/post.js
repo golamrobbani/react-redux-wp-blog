@@ -4,7 +4,6 @@ const Post = () => {
     return (
         <Fragment>
 
-
             <article class="post">
                 <div class="post-header">
                     <h2 class="title">
