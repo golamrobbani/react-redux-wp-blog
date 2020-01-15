@@ -3,55 +3,37 @@ import React, { Fragment } from 'react';
 const MainLayout = () => {
     return (
         <Fragment>
+            {/* start-preload */}
 
-            <div id="preload">
-                <div class="kd-bounce">
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
-
-            <div class="mobile">
-                <div class="container">
-                    <div class="menu-mobile">
-                        <span class="item item-1"></span>
-                        <span class="item item-2"></span>
-                        <span class="item item-3"></span>
-                    </div>
-                    <div class="logo">
-                        <a href="index.html">
-                            <img src="images/logo-mobile.png" alt="Logo" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="hide-menu"></div>
+            {/* end-preload */}
 
 
+            {/* start-mobile-menu */}
+
+            {/* end-mobile-menu */}
+
+
+            {/* start-main-content */}
             <div class="container">
                 <div class="row">
+                    {/* start-left-sidebar */}
+                    <div class="col-md-3">
+                    </div>
+                    {/* end-left-sidebar */}
 
-                
-                <div class="col-md-3">
-                
-                </div>
-
-
-                <div class="col-md-9 col-md-offset-3">
-                
-                
-                </div>
-
-
-                
-
-
-
+                    {/* start-right-content */}
+                    <div class="col-md-9 col-md-offset-3">
+                    </div>
+                    {/* end-right-content */}
                 </div>
             </div>
-        </Fragment>
+            {/* end-main-content */}
 
+
+            {/* start-footer */}
+
+            {/* end-footer */}
+        </Fragment>
     );
 }
 
