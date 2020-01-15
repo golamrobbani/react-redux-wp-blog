@@ -1,13 +1,15 @@
 import React, { Fragment } from 'react';
 
-const Post = () => {
+import {Link} from '@reach/router'
+
+const Post = ({id=2}) => {
     return (
         <Fragment>
 
             <article class="post">
                 <div class="post-header">
                     <h2 class="title">
-                        <a href="single.html">Creativity is more than a song and dance act</a>
+                        <Link to={`/post/${id}`}>Creativity is more than a song and dance act</Link>
                     </h2>
 
 

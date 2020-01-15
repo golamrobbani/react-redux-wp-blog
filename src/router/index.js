@@ -8,6 +8,7 @@ import ConatactPage from '../pages/contact'
 import AboutPage from '../pages/about'
 import TravelPage from '../pages/travel'
 import LifeStylePage from '../pages/lifestyle'
+import SinglePost from '../pages/singlepost'
 
 
 const Index = () => {
@@ -19,6 +20,8 @@ const Index = () => {
                 <ConatactPage path="/contact" />
                 <TravelPage path="/travel" />
                 <LifeStylePage path="/lifestyle" />
+                <SinglePost path="/post/:id"/>
+
             </Router>
         </Fragment>
     );

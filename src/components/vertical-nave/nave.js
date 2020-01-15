@@ -32,10 +32,10 @@ const Nave = () => {
                             <Link to="/about">About</Link>
                         </li>
                         <li>
-                            <a href="#">Lifestyle</a>
+                            <Link to="/lifestyle">Lifestyle</Link>
                         </li>
                         <li>
-                            <a href="#">Travel</a>
+                            <Link to="/travel">Travel</Link>
                         </li>
                         <li class="menu-item-has-children">
                             <a href="single.html">Single</a>
