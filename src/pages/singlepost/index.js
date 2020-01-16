@@ -6,7 +6,7 @@ import Pagination from '../../components/pagination'
 import RelatedPost from '../../components/related-post'
 import AuthorBox from '../../components/author-box'
 import Comments from '../../components/comment'
-import ContactForm from '../../components/contact-form'
+import CommentForm from '../../components/comment-form'
 
 const Index = () => {
     return (
@@ -17,7 +17,7 @@ const Index = () => {
                 <RelatedPost/>
                 <AuthorBox/>
                 <Comments/>
-                <ContactForm/>
+                <CommentForm/>
             </Layout>
         </Fragment>
     );
