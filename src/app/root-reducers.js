@@ -2,6 +2,8 @@ import {combineReducers} from 'redux'
 
 import counterReducer from '../features/counter/counter-reducer'
 
+import postReducer from '../features/post/postReducer'
+
 
 
 const reducer = (state = { name: 'golam' }, actions) => {
@@ -10,7 +12,8 @@ const reducer = (state = { name: 'golam' }, actions) => {
 
 const rootReducers=combineReducers({
     basicReducer:reducer,
-    counterReducer:counterReducer
+    counterReducer:counterReducer,
+    posts:postReducer
 
 })
 
