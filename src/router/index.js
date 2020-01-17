@@ -5,7 +5,8 @@ import { Router } from '@reach/router'
 
 import HomePage from '../pages/home'
 import LoginPage from '../pages/login'
-
+import RegisterPage from '../pages/register'
+import DeshboardPage from '../pages/dashboard'
 import ConatactPage from '../pages/contact'
 import AboutPage from '../pages/about'
 import TravelPage from '../pages/travel'
@@ -18,13 +19,14 @@ const Index = () => {
         <Fragment>
             <Router>
                 <HomePage path="/" />
-                <LoginPage path="login"/>
+                <LoginPage path="/login" />
+                <RegisterPage path="/register" />
+                <DeshboardPage path="/deshboard" />
                 <AboutPage path="/about" />
                 <ConatactPage path="/contact" />
                 <TravelPage path="/travel" />
                 <LifeStylePage path="/lifestyle" />
-                <SinglePost path="/post/:id"/>
-
+                <SinglePost path="/post/:id" />
 
             </Router>
         </Fragment>

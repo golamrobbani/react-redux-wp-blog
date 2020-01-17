@@ -1,13 +1,16 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from 'react'
+import { Link } from '@reach/router'
+import Limg from './logo.png'
+import Limg2 from './logo-light.png'
 
 const Logo = () => {
     return (
         <Fragment>
             <div class="logo">
-                <a href="index.html">
-                    <img src="images/logo-light.png" alt="Logo" class="logo-light" />
-                    <img src="images/logo.png" alt="Logo" />
-                </a>
+                <Link to="/">
+                    <img src={Limg2} alt="Logo" class="logo-light" />
+                    <img src={Limg} alt="Logo" />
+                </Link>
             </div>
         </Fragment>
     );

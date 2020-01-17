@@ -63,7 +63,13 @@ const Nave = () => {
                         <li>
                             <Link to="/login">Login</Link>
                         </li>
-                        
+                        <li>
+                            <Link to="/register">Register</Link>
+                        </li>
+                        <li>
+                            <Link to="/deshboard">Deshboard</Link>
+                        </li>
+
                     </ul>
                 </nav>
             </div>
